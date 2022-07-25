@@ -1,0 +1,276 @@
+/*Estilo para laptop++*/
+@media only screen and (min-width: 900px) and (max-width: 1440px) {
+  .ambientes {
+    width: 1280px;
+  }
+  .tools {
+    width: 1280px;
+    margin: 0 auto;
+  }
+  .lookdecora, .projetos, .simulador-cores, .site, .projcond, .projonline {
+    width: 416px;
+    height: 461px;
+  }
+  .icons {
+    width: 169px;
+  }
+  .icons img {
+    width: 169px;
+  }
+}
+
+/*Estilo para notebook*/
+@media only screen and (min-width: 1025px) and (max-width: 1366px) {
+  
+}
+
+/*Estilo para laptop*/
+@media only screen and (min-width: 800px) and (max-width: 1280px) {
+  .ambientes {
+    width: 1200px !important;
+  }
+  .tools {
+    width: 1200px;
+  }
+  .lookdecora, .projetos, .simulador-cores, .site, .projcond, .projonline {
+    width: 390px;
+    height: 409px;
+  }
+  .icons {
+    width: 170px;
+    margin: 15px;
+  }
+
+  .icons img {
+    width: 170px;
+  }
+  
+}
+
+/*Estilo para tablets-pro*/
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  
+  .ambientes {
+    width: 860px !important;
+  }
+  .ambientes h1 {
+    font-size: 42px;
+  }
+  .tools {
+    width: 860px;
+  }
+  .tools h2 {
+    font-size: 32px;
+  }
+  .tools a {
+    padding: 12px 15px;
+    font-size: 12px;
+  }
+  .tools p {
+    font-size: 16px;
+  }
+  .lookdecora, .projetos, .simulador-cores, .site, .projcond, .projonline {
+    width: 276px;
+    height: 300px;
+  }
+  .icos a {
+    padding: 0;
+    font-size: 0;
+  }
+  .icons {
+    width: 123px;
+    margin: 10px;
+  }
+  .icons img {
+    width: 123px;
+  }
+  
+
+
+  /* Animação */
+
+[data-anime] {
+  opacity: 1;
+  transition: all 0.6s ease-in;
+}
+
+[data-anime="left"] {
+  transform: translate3d(0px, 0px, 0px);
+  -webkit-transform: translate3d(0px, 0px, 0px);
+}
+
+[data-anime="right"] {
+  transform: translate3d(0px, 0px, 0px);
+}
+
+[data-anime="top"] {
+  transform: translate3d(0px, 0px, 0px);
+}
+
+[data-anime].animate {
+  opacity: 1;
+  -webkit-transform: translate3d(0px, 0px, 0px);
+}
+  
+}
+
+/*Estilo para tablets*/
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  
+  .ambientes {
+    width: 700px !important;
+    padding: 60px 0;
+  }
+  .tools {
+    width: 700px;
+    margin: 0 auto;
+  }
+  .clear {
+    width: 100%;
+    clear: both;
+    height: auto;
+    margin-bottom: 30px;
+  }
+  .lookdecora, .projetos, .simulador-cores, .site, .projcond, .projonline {
+    width: 439px;
+    height: 485px;
+    float: none;
+    margin: 15px auto;
+  }
+
+  .made3d {
+    display: none;
+  }
+  /* Animação */
+
+[data-anime] {
+  opacity: 1;
+  transition: all 0.6s ease-in;
+}
+
+[data-anime="left"] {
+  transform: translate3d(0px, 0px, 0px);
+  -webkit-transform: translate3d(0px, 0px, 0px);
+}
+
+[data-anime="right"] {
+  transform: translate3d(0px, 0px, 0px);
+}
+
+[data-anime="top"] {
+  transform: translate3d(0px, 0px, 0px);
+}
+
+[data-anime].animate {
+  opacity: 1;
+  -webkit-transform: translate3d(0px, 0px, 0px);
+}
+
+}
+
+/*Estilo para smartphone*/
+@media only screen and (max-width: 767px) {
+  
+  p {
+	font-size: 14px;
+  }
+  .introducao {
+    height: 200px;
+  }
+  .ambientes h1 {
+    font-size: 32px;
+    margin-top: 30px;
+    padding-bottom: 10px;
+  }
+  
+  .ambientes {
+   width: 100% !important;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  .tools {
+    width: 320px;
+    margin: 0 auto;
+  }
+  .tools h2 {
+    font-size: 32px;
+  }
+  .tools a {
+    padding: 12px 15px;
+    font-size: 12px;
+  }
+  .tools p {
+    font-size: 16px;
+  }
+  .lookdecora, .projetos, .projcond, .projonline, .made3d, .simulador-cores, .site {
+    width: 100%;
+    height: 350px;
+    background: url("../img/look-decora-cel.jpg") no-repeat center;
+    padding: 15px;
+    margin:  15px auto;
+    text-align: center;
+  }
+  .projetos {
+    background: url("../img/3-000-projetos-cel.jpg") no-repeat center;
+  }
+  .site {
+    background: url("../img/ico-site.jpg") no-repeat center;
+  }
+  .projcond {
+    background: url("../img/ico-blog.jpg") no-repeat center;
+  }
+  .projonline {
+    background: url("../img/projeto-online-cel.jpg") no-repeat center;
+  }
+  .simulador-cores {
+    background: url("../img/simulador-cores-puxadores.jpg") no-repeat center;
+  }
+
+  .made3d {
+    display: none;
+  }
+  .icos a {
+    padding: 0;
+    font-size: 0;
+  }
+  .icos p {
+    font-size: 14px;
+  }
+  .icoso-mob {
+    white-space: nowrap;
+  }
+  .icons {
+    width: 95px;
+    margin: 5px;
+  }
+  .icons img {
+    width: 95px;
+  }
+ 
+  
+  /* Animação */
+
+[data-anime] {
+  opacity: 1;
+  transition: all 0.6s ease-in;
+}
+
+[data-anime="left"] {
+  transform: translate3d(0px, 0px, 0px);
+  -webkit-transform: translate3d(0px, 0px, 0px);
+}
+
+[data-anime="right"] {
+  transform: translate3d(0px, 0px, 0px);
+}
+
+[data-anime="top"] {
+  transform: translate3d(0px, 0px, 0px);
+}
+
+[data-anime].animate {
+  opacity: 1;
+  -webkit-transform: translate3d(0px, 0px, 0px);
+}
+
+}

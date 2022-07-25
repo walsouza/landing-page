@@ -1,0 +1,285 @@
+/* Estilos Gerais */
+
+body {
+	font-family: Roboto, Helvetica, sans-serif;
+    background: #3e3e3e;
+}
+
+p {
+	font-family: Roboto, "Times New Roman", serif;
+	font-size: 18px;
+	line-height: 20px;
+	color: #fff;
+	font-weight: 400;
+
+}
+
+img {
+	display: block;
+}
+
+/* Header */
+
+.header {
+	position: block;
+	top: 0;
+	width: 100%;
+	background: none; 
+	padding: 15px 0;
+	z-index: 10;
+}
+
+/* Introdução */
+
+.introducao {
+	width: 100%;
+	height: 354px;
+	background: url("../img/header.jpg") no-repeat center;
+	background-size: cover;
+	text-align: center;
+}
+
+.introducao h1 {
+  font-size: 60px;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 0.1em;
+  font-weight: 300;
+  padding-bottom: 30px;
+}
+
+.introducao p {
+  max-width: 600px;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 60px;
+}
+
+.introducao a {
+  padding: 18px 60px;
+  font-size: 14px;
+  color: #fff;
+  background: #c34e33;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-top: 30px;
+}
+
+.container-max {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0px;
+  position: relative;
+}
+
+.container-max:after, .container-max:before {
+  content: " ";
+  display: table;
+}
+
+.container-max:after {
+  clear: both;
+}
+
+.ambientes {
+  width: 1366px !important;
+  margin: 0 auto;
+  position: relative;
+  padding-top: 30px;
+}
+.ambientes:after, .ambientes:before {
+  content: " ";
+  display: table;
+}
+
+.ambientes:after {
+  clear: both;
+}
+
+/*.ambientes img {
+  display: inline-block;
+  float: left;
+  max-width: 483px; !important
+  text-align: center;
+  margin: 10px;
+}*/
+
+.ambientes h1 {
+  font-size: 60px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 300;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.ambientes p {
+  padding-bottom: 20px;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+/*
+.produtosdesc {
+  max-width: 443px !important;
+  display: inline-block;
+  float: left;
+  text-align: center;
+  margin: 10px 10px 0 0;
+  overflow: hidden;
+  position: relative;
+}
+*/
+
+.tools {
+  width: 1366px;
+  margin: 0 auto;
+  position: relative;
+}
+.tools:after, .tools:before {
+  content: " ";
+  display: table;
+}
+
+.tools:after {
+  clear: both;
+}
+.tools h2 {
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #fff;
+  margin-bottom: 5px;
+  text-shadow: 1px 1px 2px #000;
+}
+.tools p {
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 30px;
+  text-shadow: 1px 1px 2px #000;
+}
+.tools a {
+  padding: 18px 60px;
+  font-size: 14px;
+  color: #fff;
+  text-transform: uppercase;
+  transition: all 0.5s;
+  background: #ededed;
+}
+.clear {
+  width: 100%;
+  clear: both;
+  margin-bottom: 30px;
+}
+
+.lookdecora, .projetos, .simulador-cores, .site, .projcond, .projonline {
+  width: 439px;
+  height: 487px;
+  background: url("../img/look-decora-v2.jpg") no-repeat center;
+  background-size: cover;
+  float: left;
+  padding: 15px;
+  margin: 5px;
+}
+.projetos {
+  background: url("../img/3-000-projetos-v3.jpg") no-repeat center;
+  background-size: cover;
+}
+.simulador-cores {
+  background: url("../img/simulador-cores-puxadores.jpg") no-repeat center;
+  background-size: cover;
+}
+.site {
+  background: url("../img/ico-site.jpg") no-repeat center;
+  background-size: cover;
+}
+.projcond, .projonline {
+  background: url("../img/ico-blog.jpg") no-repeat center;
+  background-size: cover;
+}
+.projonline {
+  background: url("../img/projeto-online-v2.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.made3d {
+  width: 100%;
+  height: 487px;
+  background: url("../img/madecad3d-v2.jpg") no-repeat center;
+  background-size: cover;
+  text-align: right;
+  float: none;
+  clear: both;
+  padding: 3% 3% 3% 73%;
+  margin-top: 30px;
+}
+
+.lookdecora a {
+  background: #8c9f50;
+}
+.projetos a {
+  background: #c34e33;
+}
+.simulador-cores a {
+  background: #a186be;
+}
+.projcond a {
+  background: #475ba0;
+}
+.projonline a {
+  background: #a64a54;
+}
+.made3d a, .site a {
+  background: #d4a752;
+}
+
+.icos {
+  width: 100%;
+  clear: both;
+  margin: 0 auto;
+}
+.icos a {
+  padding: 0;
+  font-size: 0;
+}
+.icos p {
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+.icons {
+  width: 182px;
+  height: auto;
+  float: left;
+  margin: 22px;
+  text-align: center;
+}
+
+/* Animação */
+
+[data-anime] {
+  opacity: 0;
+  transition: .7s;
+}
+
+[data-anime="left"] {
+  transform: translate3d(-150px, 0, 0);
+  -webkit-transform: translate3d(-50px, 0, 0);
+}
+
+[data-anime="right"] {
+  transform: translate3d(150px, 0, 0);
+}
+
+[data-anime="top"] {
+  transform: translate3d(0, -150px, 0);
+}
+
+[data-anime].animate {
+  opacity: 1;
+  -webkit-transform: translate3d(0px, 0px, 0px);
+}
